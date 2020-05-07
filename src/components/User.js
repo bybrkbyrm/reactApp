@@ -4,11 +4,13 @@ class User extends Component {
     render() {
         return (
             <div>
-                <form>
-                    <input type="text"/>
-                    <button>Gönder</button>
-                  
-                </form>
+                
+            <ul>
+                <li>İsim: {this.props.isim}</li>
+                <li>Departman : {this.props.departman}</li>
+                <li>Maaş : {this.props.maas}</li>
+            </ul>
+
             </div>
         )
     }
